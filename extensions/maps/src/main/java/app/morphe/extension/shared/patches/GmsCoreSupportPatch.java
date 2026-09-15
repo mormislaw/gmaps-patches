@@ -102,6 +102,7 @@ public class GmsCoreSupportPatch {
         // Gracefully exit, otherwise the broken app will continue to run.
         System.exit(0);
     }
+    
 /*
     private static void showBatteryOptimizationDialog(Activity context,
                                                       String dialogMessageRef,
