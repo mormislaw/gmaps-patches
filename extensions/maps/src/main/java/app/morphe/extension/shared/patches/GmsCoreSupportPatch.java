@@ -102,7 +102,7 @@ public class GmsCoreSupportPatch {
         // Gracefully exit, otherwise the broken app will continue to run.
         System.exit(0);
     }
-
+/*
     private static void showBatteryOptimizationDialog(Activity context,
                                                       String dialogMessageRef,
                                                       String positiveButtonTextRef,
@@ -134,7 +134,7 @@ public class GmsCoreSupportPatch {
             Utils.showDialog(context, dialog);
         }, 100);
     }
-
+*/
     /**
      * Injection point.
      */
